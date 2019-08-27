@@ -1,4 +1,5 @@
 from django.db import models
+from django import forms
 
 class Restaurant(models.Model):
     name = models.CharField(max_length=120)
